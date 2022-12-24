@@ -58,7 +58,7 @@ class TestPaint(unittest.TestCase):
                      
     def test_Paint_success(self): # test routine
         self.assertIsNone(pd1.Paint_success(self,pygame.display.set_mode([560, 700], 0, 0),"OK"))
-        self.assertIsNone(pd1.Paint_success(self,pygame.display.set_mode([0,0], 0, 0),"Not OK"))
+        self.assertIsNone(pd1.Paint_success(self,pygame.display.set_mode([0,0], 0, 0),"NotOK"))
         #self.assertEqual(pd.Paint_success(self), None)
         
     @classmethod 
